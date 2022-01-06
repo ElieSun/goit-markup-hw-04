@@ -171,7 +171,7 @@ a {
   background-image: url(../images/bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 /* Заголовок h1 */
 .section-title-1 {
@@ -246,6 +246,101 @@ a {
   margin-bottom: 10px;
 
   color: var(--section-title-color);
+}
+
+.title-2 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}
+
+.title-3 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}
+
+.title-4 {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: var(--section-title-color);
+}
+/* -----------------картинки на сером фоне--------------------------- */
+.title-1::before {
+  content: "";
+  display: block;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-image: url(../images/antenna\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-2::before {
+  content: "";
+  display: block;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-image: url(../images/clock\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-3::before {
+  content: "";
+  display: block;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-image: url(../images/diagram\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title-4::before {
+  content: "";
+  display: block;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-image: url(../images/astronaut\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .section-title-2 {
   font-family: var(--font-family);
@@ -533,6 +628,30 @@ a {
 
 .categories-contact-mail {
   margin-right: 50px;
+}
+/* Иконки для контактов в хедере */
+
+.header-link-mail::before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 30px;
+  margin-right: 15px;
+
+  background-image: url(../images/mail.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header-link-tel::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  margin-right: 15px;
+  background-image: url(../images/smartphone.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .img-1 {
