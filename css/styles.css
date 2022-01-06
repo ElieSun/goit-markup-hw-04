@@ -183,6 +183,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: var(--color-letter-white);
   max-width: 696px;
   margin: 0 auto 30px auto;
@@ -232,6 +233,7 @@ a {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
+
   text-transform: uppercase;
   color: var(--section-title-color);
 }
@@ -294,6 +296,7 @@ a {
   height: 120px;
   width: 270px;
   border-radius: 4px;
+  margin-right: 10px;
   margin-bottom: 30px;
   background-size: 70px 70px;
   background-image: url(../images/antenna\ 1.svg);
@@ -308,6 +311,7 @@ a {
   height: 120px;
   width: 270px;
   border-radius: 4px;
+  margin-right: 10px;
   margin-bottom: 30px;
   background-size: 70px 70px;
   background-image: url(../images/clock\ 1.svg);
