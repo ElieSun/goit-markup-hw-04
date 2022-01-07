@@ -976,12 +976,11 @@ a {
   fill: #afb1b8;
 }
 .social-network:hover {
-  fill: blueviolet;
+  fill: white;
 }
 .network-ul-list {
   display: flex;
   justify-content: center;
-  margin-left: 32px;
   margin-bottom: 30px;
 }
 .network-link {
@@ -991,8 +990,8 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #212121;
-  margin: 10px;
+  background-color: white;
+  margin: auto;
 }
 .network-link:hover {
   background-color: #188ce8;
