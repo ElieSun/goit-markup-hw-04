@@ -835,23 +835,6 @@ a {
   border-right: 1px solid #ececec;
 }
 
-.title-footer {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-
-  width: 145px;
-  height: 16px;
-  left: 516px;
-  top: 2751px;
-}
-
 .static-clients-title {
   font-family: var(--font-family);
   font-style: normal;
@@ -1000,6 +983,19 @@ a {
   margin-right: 10px;
 }
 /*  -------------------Секция в футере---------------------- */
+.title-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
 .network-link-footer {
   display: flex;
   align-items: center;
@@ -1007,7 +1003,6 @@ a {
   height: 44px;
   border-radius: 50%;
   background-color: #636366;
-  margin: auto;
 }
 .network-link-footer:hover {
   background-color: #188ce8;
@@ -1018,8 +1013,18 @@ a {
   background-size: contain;
   fill: white;
 }
-.section-footer-2 {
+.network-ul-list-1 {
+  padding-top: 50px;
+  display: flex;
 }
-
-.title-footer {
+.section-footer-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.section-footer-left {
+  width: 30%;
+}
+.footer-sections {
+  display: flex;
 }
