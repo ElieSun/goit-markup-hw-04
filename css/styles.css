@@ -650,7 +650,7 @@ a {
 
   background-image: url(../images/mail.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .header-link-tel::before {
@@ -854,77 +854,39 @@ a {
 
 /* __________Соц сети_________ */
 
-/* .social-section {
-  outline: solid #188ce8;
-  width: 206px;
-  height: 44px;
-} */
 .social-network {
   display: flex;
   flex-wrap: wrap;
 }
-.network-list {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-}
-.network-list:hover {
-  color: aqua;
-}
 .instagram {
-  width: 20px;
-  height: 20px;
-  background-color: #ffffff;
-  /* background-image: url(../images/instagram.svg); */
   background-repeat: no-repeat;
-  margin-right: 10px;
   content: "";
   background-size: contain;
-  margin-right: 2px;
   fill: #afb1b8;
 }
 .instagram:hover {
   fill: blueviolet;
 }
 .twiter {
-  width: 20px;
-  height: 20px;
-  /* border-radius: 50%; */
-  background-color: #ffffff;
-  margin-right: 10px;
-  /* background-image: url(../images/twiter.svg); */
   background-repeat: no-repeat;
   content: "";
   background-size: contain;
-  margin-right: 2px;
   fill: #afb1b8;
 }
 .twiter:hover {
   fill: blueviolet;
 }
 .facebook {
-  width: 20px;
-  height: 20px;
-  /* border-radius: 50%; */
-  background-color: #ffffff;
-  margin-right: 10px;
-  /* background-image: url(../images/Facebook.svg); */
   background-repeat: no-repeat;
   content: "";
   background-size: contain;
-  margin-right: 2px;
   fill: #afb1b8;
 }
 .facebook:hover {
   fill: blueviolet;
 }
-.in {
-  width: 20px;
-  height: 20px;
-  /* border-radius: 50%; */
-  background-color: #ffffff;
 
-  /* background-image: url(../images/in.svg); */
+.in {
   background-repeat: no-repeat;
   content: "";
   background-size: contain;
@@ -933,64 +895,6 @@ a {
 .in:hover {
   fill: blueviolet;
 }
-
-/* .network-list-1 {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  background-image: url(../images/instagram.svg);
-  background-repeat: no-repeat;
-  content: "";
-  background-size: cover;
-}
-.network-list-2 {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  background-image: url(../images/twiter.svg);
-  background-repeat: no-repeat;
-  content: "";
-  background-size: cover;
-}
-.network-list-3 {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  background-image: url(../images/Facebook.svg);
-  background-repeat: no-repeat;
-  content: "";
-  background-size: cover;
-}
-.network-list-4 {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  background-image: url(../images/in.svg);
-  background-repeat: no-repeat;
-  content: "";
-  background-size: cover;
-} */
-
-/* ------------Создаем список ПОСТОЯННЫЕ КЛИЕНТЫ вверху футера------------------ */
-
-/* .section-our-team::after {
-  content: "";
-  display: block;
-  border: solid #757575;
-  height: 120px;
-  width: 270px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 30px;
-  background-size: 70px 70px;
-  background-image: url(../images.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-} */
 
 .static-clients-title {
   font-family: var(--font-family);
@@ -1107,6 +1011,18 @@ a {
   margin-left: 32px;
   margin-bottom: 30px;
 }
-.network-list {
+.network-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0, 1px solid #757575;
+  color: chartreuse;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
+  background-color: #212121;
+  margin: 10px;
+}
+.network-link:hover {
+  color: #188ce8;
 }
