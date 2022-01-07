@@ -852,50 +852,6 @@ a {
   top: 2751px;
 }
 
-/* __________Соц сети_________ */
-
-.social-network {
-  display: flex;
-  flex-wrap: wrap;
-}
-.instagram {
-  background-repeat: no-repeat;
-  content: "";
-  background-size: contain;
-  fill: #afb1b8;
-}
-.instagram:hover {
-  fill: blueviolet;
-}
-.twiter {
-  background-repeat: no-repeat;
-  content: "";
-  background-size: contain;
-  fill: #afb1b8;
-}
-.twiter:hover {
-  fill: blueviolet;
-}
-.facebook {
-  background-repeat: no-repeat;
-  content: "";
-  background-size: contain;
-  fill: #afb1b8;
-}
-.facebook:hover {
-  fill: blueviolet;
-}
-
-.in {
-  background-repeat: no-repeat;
-  content: "";
-  background-size: contain;
-  fill: #afb1b8;
-}
-.in:hover {
-  fill: blueviolet;
-}
-
 .static-clients-title {
   font-family: var(--font-family);
   font-style: normal;
@@ -1005,6 +961,23 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+/* __________Соц сети_________ */
+
+.social-network {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-network {
+  background-repeat: no-repeat;
+  content: "";
+  background-size: contain;
+  fill: #afb1b8;
+}
+.social-network:hover {
+  fill: blueviolet;
+}
 .network-ul-list {
   display: flex;
   justify-content: center;
@@ -1015,8 +988,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0, 1px solid #757575;
-  color: chartreuse;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -1024,5 +995,5 @@ a {
   margin: 10px;
 }
 .network-link:hover {
-  color: #188ce8;
+  background-color: #188ce8;
 }
