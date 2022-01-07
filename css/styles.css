@@ -168,10 +168,14 @@ a {
   padding-bottom: 200px;
 
   background-color: var(--color-background);
-  background-image: url(../images/bg-img.png);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 1600px;
 }
 /* Заголовок h1 */
 .section-title-1 {
@@ -666,7 +670,6 @@ a {
 .main-buttons {
   padding-bottom: 94px;
   padding-top: 94px;
-  margin-bottom: 50px;
 }
 
 .main-btn {
@@ -695,11 +698,12 @@ a {
 .action-list {
   display: flex;
   flex-wrap: wrap;
-  width: 1170px;
 }
 .list {
   margin-right: 30px;
   width: 270px;
+}
+.list::after {
 }
 .action-list .list:last-child {
   margin-right: 0px;
@@ -827,4 +831,265 @@ a {
   border-bottom: 1px solid #ececec;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
+}
+
+.title-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  width: 145px;
+  height: 16px;
+  left: 516px;
+  top: 2751px;
+}
+
+/* __________Соц сети_________ */
+
+/* .social-section {
+  outline: solid #188ce8;
+  width: 206px;
+  height: 44px;
+} */
+.social-network {
+  display: flex;
+  flex-wrap: wrap;
+}
+.network-list {
+  width: 44px;
+  height: 44px;
+  /* border-radius: 50%; */
+}
+.instagram {
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  /* background-image: url(../images/instagram.svg); */
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  content: "";
+  background-size: contain;
+  margin-right: 2px;
+  fill: #afb1b8;
+}
+.instagram:hover {
+  fill: blueviolet;
+}
+.twiter {
+  width: 20px;
+  height: 20px;
+  /* border-radius: 50%; */
+  background-color: #ffffff;
+  margin-right: 10px;
+  /* background-image: url(../images/twiter.svg); */
+  background-repeat: no-repeat;
+  content: "";
+  background-size: contain;
+  margin-right: 2px;
+}
+.facebook {
+  width: 20px;
+  height: 20px;
+  /* border-radius: 50%; */
+  background-color: #ffffff;
+  margin-right: 10px;
+  /* background-image: url(../images/Facebook.svg); */
+  background-repeat: no-repeat;
+  content: "";
+  background-size: contain;
+  margin-right: 2px;
+}
+.in {
+  width: 20px;
+  height: 20px;
+  /* border-radius: 50%; */
+  background-color: #ffffff;
+
+  /* background-image: url(../images/in.svg); */
+  background-repeat: no-repeat;
+  content: "";
+  background-size: contain;
+}
+
+/* .network-list-1 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background-image: url(../images/instagram.svg);
+  background-repeat: no-repeat;
+  content: "";
+  background-size: cover;
+}
+.network-list-2 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background-image: url(../images/twiter.svg);
+  background-repeat: no-repeat;
+  content: "";
+  background-size: cover;
+}
+.network-list-3 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background-image: url(../images/Facebook.svg);
+  background-repeat: no-repeat;
+  content: "";
+  background-size: cover;
+}
+.network-list-4 {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  background-image: url(../images/in.svg);
+  background-repeat: no-repeat;
+  content: "";
+  background-size: cover;
+} */
+
+/* ------------Создаем список ПОСТОЯННЫЕ КЛИЕНТЫ вверху футера------------------ */
+
+/* .section-our-team::after {
+  content: "";
+  display: block;
+  border: solid #757575;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  background-size: 70px 70px;
+  background-image: url(../images.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+} */
+
+.static-clients-title {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+}
+.static-clients-ul {
+  display: flex;
+}
+.static-clients-list-1 {
+  content: "";
+  display: block;
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* background-size: 70px 70px; */
+  background-image: url(../images/Logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.static-clients-list-2 {
+  content: "";
+  display: block;
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* background-size: 70px 70px; */
+  background-image: url(../images/Logo_1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.static-clients-list-3 {
+  content: "";
+  display: block;
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* background-size: 70px 70px; */
+  background-image: url(../images/Logo_2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.static-clients-list-4 {
+  content: "";
+  display: block;
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* background-size: 70px 70px; */
+  background-image: url(../images/Logo_3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.static-clients-list-5 {
+  content: "";
+  display: block;
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* background-size: 70px 70px; */
+  background-image: url(../images/Logo_4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.static-clients-list-6 {
+  content: "";
+  display: block;
+  height: 92px;
+  width: 170px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  /* background-size: 70px 70px; */
+  background-image: url(../images/Logo_5.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.static-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.network-ul-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 32px;
+  margin-bottom: 30px;
+}
+.network-list {
+  border-radius: 50%;
 }
