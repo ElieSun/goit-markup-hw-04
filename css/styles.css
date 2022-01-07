@@ -164,6 +164,9 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 
@@ -633,7 +636,6 @@ a {
 .categories-list .categories-contact-tel:not(:last-child) {
   margin-right: 0;
 }
-
 .categories-contact-mail {
   margin-right: 50px;
 }
@@ -864,7 +866,10 @@ a {
 .network-list {
   width: 44px;
   height: 44px;
-  /* border-radius: 50%; */
+  border-radius: 50%;
+}
+.network-list:hover {
+  color: aqua;
 }
 .instagram {
   width: 20px;
@@ -892,6 +897,10 @@ a {
   content: "";
   background-size: contain;
   margin-right: 2px;
+  fill: #afb1b8;
+}
+.twiter:hover {
+  fill: blueviolet;
 }
 .facebook {
   width: 20px;
@@ -904,6 +913,10 @@ a {
   content: "";
   background-size: contain;
   margin-right: 2px;
+  fill: #afb1b8;
+}
+.facebook:hover {
+  fill: blueviolet;
 }
 .in {
   width: 20px;
@@ -915,6 +928,10 @@ a {
   background-repeat: no-repeat;
   content: "";
   background-size: contain;
+  fill: #afb1b8;
+}
+.in:hover {
+  fill: blueviolet;
 }
 
 /* .network-list-1 {
