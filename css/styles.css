@@ -300,7 +300,7 @@ a {
   color: var(--section-title-color);
 }
 /* -----------------картинки на сером фоне--------------------------- */
-.title-1::before {
+/* .title-1::before {
   content: "";
   display: block;
   background-color: #f5f4fa;
@@ -308,13 +308,13 @@ a {
   width: 270px;
   border-radius: 4px;
   margin-right: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   /* background-size: 70px 70px; */
   /* background-image: url(../images/antenna\ 1.svg);
   background-repeat: no-repeat;
   background-position: center; */
 }
-.title-2::before {
+/* .title-2::before {
   content: "";
   display: block;
   background-color: #f5f4fa;
@@ -322,35 +322,35 @@ a {
   width: 270px;
   border-radius: 4px;
   margin-right: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   /* background-size: 70px 70px;
   background-image: url(../images/clock\ 1.svg);
   background-repeat: no-repeat;
   background-position: center; */
 }
 
-.title-3::before {
+/* .title-3::before {
   content: "";
   display: block;
   background-color: #f5f4fa;
   height: 120px;
   width: 270px;
   border-radius: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   /* background-size: 70px 70px;
   background-image: url(../images/diagram\ 1.svg);
   background-repeat: no-repeat;
   background-position: center; */
 }
 
-.title-4::before {
+/* .title-4::before {
   content: "";
   display: block;
   background-color: #f5f4fa;
   height: 120px;
   width: 270px;
   border-radius: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; */
   /* background-size: 70px 70px;
   background-image: url(../images/astronaut\ 1.svg);
   background-repeat: no-repeat;
@@ -860,9 +860,15 @@ a {
 }
 .companies {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 25px;
   padding-top: 26px;
   padding-bottom: 26px;
+  fill: #afb1b8;
+}
+.companies:hover {
+  fill: #2196f3;
 }
 .static-clients-list {
   content: "";
@@ -879,6 +885,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+.static-clients-list:hover {
+  color: #2196f3;
+}
+
 .static-clients-list-blue {
   content: "";
   display: block;
@@ -984,4 +994,18 @@ a {
 }
 .mail-svg:hover {
   fill: #188ce8;
+}
+.svg-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "";
+  display: block;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
