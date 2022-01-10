@@ -643,12 +643,7 @@ a {
   display: flex;
  
 }
-.mail-svg {
-  margin-right: 10px;
-}
-.tel-svg {
-  margin-right: 10px;
-}
+
 /* Иконки для контактов в хедере */
 
 /* .header-link-mail::before {
@@ -855,6 +850,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #ffffff;
+  margin-bottom: 50px;
 }
 .static-clients-ul {
   display: flex;
@@ -877,17 +873,15 @@ a {
   border-radius: 4px;
   border: 1px solid #afb1b8;
   margin-right: 30px;
-  margin-bottom: 30px;
-  margin-top: 50px;
-  background-size: 70px 70px;
-  /* background-image: url(../images/Logo.svg); */
   background-repeat: no-repeat;
   background-position: center;
 }
 .static-clients-list:hover {
   border-color: #2196f3;
 }
-
+.static-clients-list: :last-child {
+  margin-right: 0px;
+}
 .static-clients {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -930,18 +924,17 @@ a {
 .li-list {
   margin-right: 10px;
 }
+.li-list:last-child {
+  margin-right: 0px;
+}
 /*  -------------------Секция в футере---------------------- */
 .title-footer {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
-  position: absolute;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 20px;
   color: #ffffff;
 }
 .network-link-footer {
@@ -963,25 +956,34 @@ a {
   fill: white;
 }
 .network-ul-list-1 {
-  padding-top: 50px;
   display: flex;
 }
 .section-footer-right {
-  width: 50%;
-  display: flex;
-  align-items: center;
 }
 .section-footer-left {
-  width: 30%;
+  margin-right: 70px;
 }
 .footer-sections {
   display: flex;
+  align-items: baseline;
 }
 .mail-svg {
   fill: #757575;
 }
 .mail-svg:hover {
   fill: #188ce8;
+}
+.mail-svg {
+  margin-right: 10px;
+}
+.tel-svg {
+  fill: #757575;
+}
+.tel-svg:hover {
+  fill: #188ce8;
+}
+.tel-svg {
+  margin-right: 10px;
 }
 .svg-icons {
   display: flex;
