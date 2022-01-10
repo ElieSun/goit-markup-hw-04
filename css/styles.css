@@ -298,63 +298,8 @@ a {
 
   color: var(--section-title-color);
 }
-/* -----------------картинки на сером фоне--------------------------- */
-/* .title-1::before {
-  content: "";
-  display: block;
-  background-color: #f5f4fa;
-  height: 120px;
-  width: 270px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 30px; */
-  /* background-size: 70px 70px; */
-  /* background-image: url(../images/antenna\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
-}
-/* .title-2::before {
-  content: "";
-  display: block;
-  background-color: #f5f4fa;
-  height: 120px;
-  width: 270px;
-  border-radius: 4px;
-  margin-right: 10px;
-  margin-bottom: 30px; */
-  /* background-size: 70px 70px;
-  background-image: url(../images/clock\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
-}
+/* --------------Секция чем мы занимаемся-------------- */
 
-/* .title-3::before {
-  content: "";
-  display: block;
-  background-color: #f5f4fa;
-  height: 120px;
-  width: 270px;
-  border-radius: 4px;
-  margin-bottom: 30px; */
-  /* background-size: 70px 70px;
-  background-image: url(../images/diagram\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
-}
-
-/* .title-4::before {
-  content: "";
-  display: block;
-  background-color: #f5f4fa;
-  height: 120px;
-  width: 270px;
-  border-radius: 4px;
-  margin-bottom: 30px; */
-  /* background-size: 70px 70px;
-  background-image: url(../images/astronaut\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
-}
 .section-title-2 {
   font-family: var(--font-family);
   font-style: normal;
@@ -376,7 +321,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--section-title-color);
   margin-bottom: 50px;
-  text-align: center;
 }
 .title-img {
   font-family: var(--font-family);
@@ -641,7 +585,6 @@ a {
 .categories-contact-mail {
   margin-right: 50px;
   display: flex;
- 
 }
 
 /* Иконки для контактов в хедере */
