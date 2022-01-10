@@ -26,7 +26,6 @@ a {
   cursor: pointer;
   display: block;
 }
-
 button {
   cursor: pointer;
   direction: none;
@@ -80,7 +79,6 @@ a {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -101,7 +99,6 @@ a {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -368,7 +365,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--section-title-color);
   margin-bottom: 50px;
-  text-align: center;
 }
 .section-title-3 {
   font-family: var(--font-family);
@@ -645,7 +641,7 @@ a {
 .categories-contact-mail {
   margin-right: 50px;
   display: flex;
-  flex-wrap: wrap;
+ 
 }
 .mail-svg {
   margin-right: 10px;
@@ -991,12 +987,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: block;
   background-color: #f5f4fa;
   height: 120px;
   width: 270px;
   border-radius: 4px;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-right: 103px;
 }
