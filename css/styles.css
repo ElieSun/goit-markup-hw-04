@@ -587,31 +587,6 @@ a {
   display: flex;
 }
 
-/* Иконки для контактов в хедере */
-
-/* .header-link-mail::before {
-  display: inline-block;
-  content: "";
-  width: 20px;
-  height: 30px;
-  margin-right: 15px;
-
-  background-image: url(../images/mail.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* .header-link-tel::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 30px;
-  margin-right: 15px;
-  background-image: url(../images/smartphone.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
-
 .img-1 {
   padding-bottom: 94px;
 }
